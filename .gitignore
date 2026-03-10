@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+RailSafe/
+
+# Data (trop lourds pour Git)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Models
+models/
+*.pkl
+*.joblib
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs
+logs/
+*.log
+mlruns/
+
+# Jupyter
+.ipynb_checkpoints/
