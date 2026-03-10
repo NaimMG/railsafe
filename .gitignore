@@ -31,3 +31,7 @@ mlruns/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Cache Open-Meteo
+.cache.sqlite
+.cache/
