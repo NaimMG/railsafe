@@ -68,7 +68,7 @@ class RailSafeModel:
 
         X = pd.DataFrame([features])[self.feature_cols]
         proba         = float(self.model.predict_proba(X)[0][1])
-        retard_eleve  = proba >= 0.5
+        retard_eleve  = proba >= 0.35
 
         return {
             "retard_eleve"  : retard_eleve,
